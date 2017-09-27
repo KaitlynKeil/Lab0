@@ -3,14 +3,14 @@
 `include "adder.v"
 
 module testFullAdder4bit();
-	reg[3:0] a, b;
+	reg[3:0] a, b; // Set up the buses
 	wire[3:0] sum;
 	wire carryout, overflow;
 
 	FullAdder4bit mut (sum, carryout, overflow, a, b);
 
 	initial begin
-		$dumpfile("fourbit_trace.vcd");
+		$dumpfile("fourbit_trace.vcd"); // Create a file to view waveforms
     	$dumpvars;
 		$display("    A    B |    S Cout Over | Expected");
 		a=4'b0000; b=4'b0000; #1000
