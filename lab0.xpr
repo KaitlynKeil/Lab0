@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="20" Path="/home/comparch/Lab0/lab0.xpr">
+<Project Version="7" Minor="20" Path="/home/comparch/CompArch/Lab0/lab0.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="3e25bb4895324bedac3db5b5420cb7d1"/>
@@ -80,7 +80,7 @@
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/imports/comparch/ZYBO_Master.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../ZYBO_Master.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../ZYBO_Master.xdc"/>
           <Attr Name="ImportTime" Val="1506378716"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

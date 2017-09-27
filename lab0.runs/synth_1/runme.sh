@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/comparch/Lab0/lab0.runs/synth_1'
+HD_PWD='/home/comparch/CompArch/Lab0/lab0.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

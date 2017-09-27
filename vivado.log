@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Sep 27 16:40:16 2017
+# Process ID: 3381
+# Current directory: /home/comparch/CompArch/Lab0
+# Command line: vivado
+# Log file: /home/comparch/CompArch/Lab0/vivado.log
+# Journal file: /home/comparch/CompArch/Lab0/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/comparch/CompArch/Lab0/lab0.xpr
+INFO: [Project 1-313] Project file moved from '/home/comparch/Lab0' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory '/home/comparch/CompArch/Lab0/lab0.ip_user_files', nor could it be found using path '/home/comparch/Lab0/lab0.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 5862.734 ; gain = 61.707 ; free physical = 64 ; free virtual = 2645
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.2
+  **** Build date : Jun 15 2017-18:45:18
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
